@@ -1,0 +1,17 @@
+location: 
+ place: New_York_City
+ building: LightHouse
+ floor: '6'
+ scale: 0.01098358101
+
+server:
+  host: "128.122.136.173"
+  port: 30002
+  feedback_freq: 0.1
+  FEC: false
+  DEBUG: true
+  INFERENCE: false
+  encoding: "h265"
+  sink_type: "video"
+
+IO_root: "/home/unav/Desktop/UNav-IO"

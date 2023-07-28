@@ -1,0 +1,36 @@
+# location: 
+#  place: New_York_University
+#  building: NYU_Langone
+#  floor: 17_DENSE_LOW
+#  scale: 0.02157699999
+
+# IO_root: "/home/unav/Desktop/UNav-IO"
+# testing_image_folder: 'images/langone'
+
+# location: 
+#  place: New_York_University
+#  building: 6_MetroTech
+#  floor: Metrotech_6_Floor_4_With_Stairs
+#  scale: 0.01209306372
+
+# IO_root: "/home/unav/Desktop/UNav-IO"
+# testing_image_folder: 'images/tandon'
+
+# location: 
+#   place: New_York_City
+#   building: NYISE_VC
+#   floor: 1st
+#   scale: 0.1513526317
+
+# IO_root: "/home/unav/Desktop/UNav-IO"
+# testing_image_folder: 'images/nyise1'
+
+
+location: 
+ place: New_York_City
+ building: LightHouse
+ floor: 4new
+ scale: 0.02681116641
+
+IO_root: "/home/unav/Desktop/UNav-IO"
+testing_image_folder: 'images/lighthouse4'

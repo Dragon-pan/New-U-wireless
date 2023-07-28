@@ -1,0 +1,24 @@
+hloc:
+  retrieval_num: 50
+  implicit_num: 20
+  ransac_thre: 30
+  # match_type: 'nvs' 
+  match_type: 'superglue'
+
+feature:
+  global:
+    netvlad:
+      ckpt_path: "src/third_party/global_feature/pytorch_NetVlad/netvlad_parameters/log/paper"
+      arch: 'vgg16'
+      vladv2: true
+      nocuda: false
+      num_clusters: 64
+      pooling: 'netvlad'
+  local:
+    superpoint+superglue:
+      detector_name: superpoint
+      nms_radius: 4
+      max_keypoints: 4096
+      matcher_name: superglue
+      weights: 'outdoor'
+      sinkhorn_iterations: 50
